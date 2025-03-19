@@ -101,6 +101,15 @@ Hindi text is converted into speech using gTTS.
 | `/sentiment` | `POST` | Performs sentiment analysis on text | `curl -X POST -H "Content-Type: application/json" -d '{"text": "Tesla is performing well"}' http://127.0.0.1:5000/sentiment` |
 | `/tts` | `POST` | Converts text to Hindi speech | `curl -X POST -H "Content-Type: application/json" -d '{"text": "Tesla is growing fast"}' http://127.0.0.1:5000/tts` |
 
+## API Usage & Third-Party Integrations
+
+| API | Purpose | Integration Details |
+|------|----------|--------------------|
+| **NewsAPI** | Fetches latest news articles related to a company | Requires an API key from [NewsAPI](https://newsapi.org/) |
+| **Google Translator API (deep_translator)** | Translates English summaries into Hindi | Used to generate Hindi text before Text-to-Speech |
+| **gTTS (Google Text-to-Speech)** | Converts Hindi text into speech | Generates `output.mp3` from Hindi-translated text |
+| **Flask REST API** | Provides endpoints for news fetching, sentiment analysis, and TTS | API endpoints are accessible via Postman or cURL |
+
 ## Testing the APIs with Postman
 
 ### Open Postman
