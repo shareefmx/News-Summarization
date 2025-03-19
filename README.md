@@ -6,8 +6,11 @@ A web-based application that extracts key details from multiple news articles re
 Frontend: Gradio
 
 Backend: Flask (APIs)
+
 NLP Models: Hugging Face transformers (Sentiment Analysis)
+
 Text-to-Speech: gTTS (Hindi Speech)
+
 News Extraction: NewsAPI
 
 ## Project Setup:
@@ -61,17 +64,30 @@ $ python app.py
 Running on local URL and click [ Ctrl + click ] the url(Access the interface at http://127.0.0.1:7860/).
 
 ##Model Details
+
 ###News Summarization
+
 Approach: Uses the description field from NewsAPI as a summary.
+
 Why? Avoids unnecessary processing and ensures real-time performance.
+
 ###Sentiment Analysis
+
 Model: Hugging Face's distilbert-base-uncased-finetuned-sst-2-english
 How it Works?
+
 Takes the news summary as input.
+
 Classifies it into Positive, Negative, or Neutral sentiment.
+
 ###Text-to-Speech (TTS)
+
 Model: gTTS (Google Text-to-Speech)
+
 Language: Hindi (lang="hi")
+
 ####Workflow:
+
 English text is translated to Hindi using deep_translator.
+
 Hindi text is converted into speech using gTTS.
