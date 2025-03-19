@@ -6,3 +6,10 @@ torch
 gradio
 streamlit
 gTTS
+flask
+tensorflow
+torch
+torchvision
+torchaudio
+deep-translator
+tf-keras
