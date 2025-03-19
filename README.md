@@ -148,4 +148,12 @@ TTS is limited to short summaries (long texts may cause delays).
 
 Translation quality may not be perfect for complex sentences.
 
+## Deployment
+Local Host :- http://127.0.0.1:7860/
+Hugging Face Spaces Link :- 
 
+## Video and Images 
+
+## Contact
+📧 Email: shareefmottath@gmail.com
+🌍 GitHub: https://github.com/shareefmx/
