@@ -149,11 +149,19 @@ TTS is limited to short summaries (long texts may cause delays).
 Translation quality may not be perfect for complex sentences.
 
 ## Deployment
+
 Local Host :- http://127.0.0.1:7860/
-Hugging Face Spaces Link :- 
+
+Hugging Face Spaces Link :- https://huggingface.co/spaces/shareefmx/News-Summarization
 
 ## Video and Images 
 
+youtube :-  
+
 ## Contact
-📧 Email: shareefmottath@gmail.com
-🌍 GitHub: https://github.com/shareefmx/
+
+Email: shareefmottath@gmail.com
+
+GitHub: https://github.com/shareefmx/
+
+Huggingface :- https://huggingface.co/spaces/shareefmx/
