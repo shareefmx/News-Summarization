@@ -29,6 +29,6 @@ pip install requests beautifulsoup4 newspaper3k transformers torch gradio stream
 Run the python file. In a terminal, run the following command:
 
 ```
-$ python App.py
+$ python app.py
 ```
-Running on local URL and click [ Ctrl + click ]
+Running on local URL and click [ Ctrl + click ] the url.
