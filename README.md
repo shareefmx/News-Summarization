@@ -4,6 +4,7 @@ A web-based application that extracts key details from multiple news articles re
 
 ### Tech Stack:
 Frontend: Gradio
+
 Backend: Flask (APIs)
 NLP Models: Hugging Face transformers (Sentiment Analysis)
 Text-to-Speech: gTTS (Hindi Speech)
@@ -12,6 +13,7 @@ News Extraction: NewsAPI
 ## Project Setup:
 ### Prerequisites
 Python 3.8+
+
 pip
 
 ### Clone the Repository
