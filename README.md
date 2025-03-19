@@ -16,9 +16,10 @@ Open the cloned repository in your VS code.
 Open the terminal and install the package. 
 ```
 pip install gradio
+pip install flask
 pip install tensorflow
 pip install torch torchvision torchaudio
-pip install deep_translator
+pip install deep-translator
 ```
 
 setup with virtual environments(.venv file) and install.
