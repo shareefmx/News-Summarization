@@ -74,6 +74,7 @@ Why? Avoids unnecessary processing and ensures real-time performance.
 ### Sentiment Analysis
 
 Model: Hugging Face's distilbert-base-uncased-finetuned-sst-2-english
+
 How it Works?
 
 Takes the news summary as input.
