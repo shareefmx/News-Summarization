@@ -18,6 +18,7 @@ Open the terminal and install the package.
 pip install gradio
 pip install tensorflow
 pip install torch torchvision torchaudio
+pip install deep_translator
 ```
 
 setup with virtual environments(.venv file) and install.
