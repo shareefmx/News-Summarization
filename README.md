@@ -63,15 +63,15 @@ $ python app.py
 ```
 Running on local URL and click [ Ctrl + click ] the url(Access the interface at http://127.0.0.1:7860/).
 
-##Model Details
+## Model Details
 
-###News Summarization
+### News Summarization
 
 Approach: Uses the description field from NewsAPI as a summary.
 
 Why? Avoids unnecessary processing and ensures real-time performance.
 
-###Sentiment Analysis
+### Sentiment Analysis
 
 Model: Hugging Face's distilbert-base-uncased-finetuned-sst-2-english
 How it Works?
@@ -80,13 +80,13 @@ Takes the news summary as input.
 
 Classifies it into Positive, Negative, or Neutral sentiment.
 
-###Text-to-Speech (TTS)
+### Text-to-Speech (TTS)
 
 Model: gTTS (Google Text-to-Speech)
 
 Language: Hindi (lang="hi")
 
-####Workflow:
+#### Workflow:
 
 English text is translated to Hindi using deep_translator.
 
