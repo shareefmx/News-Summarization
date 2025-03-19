@@ -91,3 +91,51 @@ Language: Hindi (lang="hi")
 English text is translated to Hindi using deep_translator.
 
 Hindi text is converted into speech using gTTS.
+
+## API Endpoints
+
+| Endpoint | Method | Description | Example |
+|----------|--------|-------------|---------|
+| `/news?company=Tesla` | `GET` | Fetches news articles for a company | `http://127.0.0.1:5000/news?company=Tesla` |
+| `/sentiment` | `POST` | Performs sentiment analysis on text | `curl -X POST -H "Content-Type: application/json" -d '{"text": "Tesla is performing well"}' http://127.0.0.1:5000/sentiment` |
+| `/tts` | `POST` | Converts text to Hindi speech | `curl -X POST -H "Content-Type: application/json" -d '{"text": "Tesla is growing fast"}' http://127.0.0.1:5000/tts` |
+
+## Testing the APIs with Postman
+
+### Open Postman
+
+Test News Fetching:
+
+GET: http://127.0.0.1:5000/news?company=Apple
+
+### Test Sentiment Analysis:
+
+POST: http://127.0.0.1:5000/sentiment
+
+Body: { "text": "Apple is leading the market" }
+
+### Test Text-to-Speech:
+
+POST: http://127.0.0.1:5000/tts
+
+Body: { "text": "Apple has recorded high sales this quarter" }
+
+## Assumptions & Limitations
+
+### Assumptions
+
+NewsAPI provides at least 10 relevant articles per company.
+
+Sentiment analysis works reliably for short news summaries.
+
+Google Translator API provides accurate Hindi translations.
+
+### Limitations
+
+NewsAPI's free tier has a daily request limit (100 requests/day).
+
+TTS is limited to short summaries (long texts may cause delays).
+
+Translation quality may not be perfect for complex sentences.
+
+
