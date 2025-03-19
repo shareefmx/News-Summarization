@@ -154,9 +154,9 @@ Local Host :- http://127.0.0.1:7860/
 
 Hugging Face Spaces Link :- https://huggingface.co/spaces/shareefmx/News-Summarization
 
-## Video and Images 
+## Video 
 
-youtube :-  
+youtube :-  https://www.youtube.com/watch?v=hMs82sSt-So
 
 ## Contact
 
